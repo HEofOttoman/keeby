@@ -20,7 +20,7 @@ One of the things I also thought about (but didn't really need to at this stage 
 - YES! 19.05/8mm grid is important.
 - NRF52840
 
-## 2 September 26
-Continued assigning rows/columns.
-
+## 2 September 26 5hrs
 ![1718020926](1718020926.png)
+
+Continued assigning rows/columns. Moved to reassigning things, my head hurts a LOT. The switches look nice and all layed out, but the key layout is different to what it should be. VERY MUCH SO.

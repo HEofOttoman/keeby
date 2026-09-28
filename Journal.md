@@ -24,3 +24,13 @@ One of the things I also thought about (but didn't really need to at this stage 
 ![1718020926](1718020926.png)
 
 Continued assigning rows/columns. Moved to reassigning things, my head hurts a LOT. The switches look nice and all layed out, but the key layout is different to what it should be. VERY MUCH SO.
+
+I started using KBplacer somewhere this time here
+
+## 28 September 26 4hrs
+This is giving me a headache. I am close though. Only like 1 key away from this layout is correct.
+![almost there](<Schematic 2026-09-28 195109.png>)
+I think I narrowed it down to SW56 in that image
+And now, this works!! Much less messy ![and now, this works!!](<Fixed Schematic 2026-09-28 203737.png>)
+
+From last time I worked on this keyboard, I figured out I needed to delete an entire row.

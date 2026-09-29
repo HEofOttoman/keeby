@@ -47,7 +47,7 @@ It was here I realised that I realised I connect col_13 to the pi twice :praying
 
 I came across a weird issue where my keyboard edge cuts is completely busted. 
 
-## 29 September 26 ~2hrs
+## 29 September 26 ~4hrs
 I then realised it was because of a miniscule edge.cuts object.
 
 From Kbplacer's placement that was mostly correct, there was a problem with the placement of the switches..
@@ -59,3 +59,15 @@ It is about this time I probably decide against using an LED to reduce battery u
 I am using 301230 (301230 means 3.0 x 12 x 30 mm) Li-Po batteries, because they sit flush and fit snugly between two 4.5mm tall machine pin sockets (per [this guy](https://github.com/joric/nrfmicro/wiki/)).
 
 Annotate schematic being a lil silly and putting components out of wack. 
+
+![new parts?](<superminiandother.png>)
+
+I started looking for a pinout to the Supermini to help me wire the nrf to the gpio 
+![https://github.com/pdcook/nRFMicro-Arduino-Core](https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/supermini_nicenano.png)
+
+This, is where I come across a design dilemma. The Supermini has the exact amount of pins I need for my keyboard matrix, but one extra pin & nothing else; I can't add the other things I wanted: not the LEDs, the rotary encoder, nor the joystick.
+
+I could also resize the board, but I can't move onto cad from there. 
+I could then work on the firmware instead, but I still don't know if I want to use ZMK as opposed to RMK because rust is coolio
+
+

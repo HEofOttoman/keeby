@@ -1,4 +1,8 @@
 # First Journal!
+|Name|Kai Board|
+|Author|Henry W|
+|Total Hours|~15+|
+
 ## 21-22 July 26 - ~1-1.5hr
 ![210726](210726.png)
 
@@ -28,9 +32,24 @@ Continued assigning rows/columns. Moved to reassigning things, my head hurts a L
 I started using KBplacer somewhere this time here
 
 ## 28 September 26 4hrs
+From last time I worked on this keyboard, I figured out I needed to delete an entire column, that being column 15.
+
 This is giving me a headache. I am close though. Only like 1 key away from this layout is correct.
 ![almost there](<Schematic 2026-09-28 195109.png>)
 I think I narrowed it down to SW56 in that image
 And now, this works!! Much less messy ![and now, this works!!](<Fixed Schematic 2026-09-28 203737.png>)
 
-From last time I worked on this keyboard, I figured out I needed to delete an entire row.
+![pcb](<pcbwork.png>)
+
+I proceeded to spend a long time rotating the diodes. Then rotating. Then routing.
+
+It was here I realised that I realised I connect col_13 to the pi twice :praying:
+
+I came across a weird issue where my keyboard edge cuts is completely busted. 
+
+## 29 September 26 ~2hrs
+I then realised it was because of a miniscule edge.cuts object.
+
+From Kbplacer's placement that was mostly correct, there was a problem with the placement of the switches..
+![alt text](<columnproblems.png>)
+Now I start writing down parts for the BOM because why not. I have 67 keys and diodes. 

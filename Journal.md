@@ -53,3 +53,9 @@ I then realised it was because of a miniscule edge.cuts object.
 From Kbplacer's placement that was mostly correct, there was a problem with the placement of the switches..
 ![alt text](<columnproblems.png>)
 Now I start writing down parts for the BOM because why not. I have 67 keys and diodes. 
+
+It is about this time I probably decide against using an LED to reduce battery usage.
+
+I am using 301230 (301230 means 3.0 x 12 x 30 mm) Li-Po batteries, because they sit flush and fit snugly between two 4.5mm tall machine pin sockets (per [this guy](https://github.com/joric/nrfmicro/wiki/)).
+
+Annotate schematic being a lil silly and putting components out of wack. 

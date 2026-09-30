@@ -63,7 +63,7 @@ Annotate schematic being a lil silly and putting components out of wack.
 ![new parts?](<superminiandother.png>)
 
 I started looking for a pinout to the Supermini to help me wire the nrf to the gpio 
-![https://github.com/pdcook/nRFMicro-Arduino-Core](https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/supermini_nicenano.png)
+![https://github.com/pdcook/nRFMicro-Arduino-Core](https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/supermini_nicenano.png) The locations of the Bat+ & Bat- pins are something I need to look out for
 
 This, is where I come across a design dilemma. The Supermini has the exact amount of pins I need for my keyboard matrix, but one extra pin & nothing else; I can't add the other things I wanted: not the LEDs, the rotary encoder, nor the joystick.
 
@@ -71,7 +71,8 @@ I could also resize the board, but I can't move onto cad from there.
 I could then work on the firmware instead, but I still don't know if I want to use ZMK as opposed to RMK because rust is coolio
 
 ---
-4 Hours
+30 September 2026 5 Hours
+*Keeb ends in less than a day... I must lock in.*
 
 I proceeded to spend time assigning 3d models to each of these switches and all the stabilisers. I then added the mounting holes. 
 
@@ -80,3 +81,8 @@ Cue trying to start firmware on the side.
 I also decided to move the mcu from the side to the top.
 
 It is here that I then realise I somehow mislabeled the rows so that it's ROW0, ROW1, then straight to ROW3. I hope trying to fix this doesn't break anything...
+
+I have decided on the board dimensions of 119.5 x 315 mm
+
+Now I rearrange pins on the board to simplify routing
+

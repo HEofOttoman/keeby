@@ -70,4 +70,6 @@ This, is where I come across a design dilemma. The Supermini has the exact amoun
 I could also resize the board, but I can't move onto cad from there. 
 I could then work on the firmware instead, but I still don't know if I want to use ZMK as opposed to RMK because rust is coolio
 
+---
 
+I proceeded to spend time assigning 3d models to each of these switches and all the stabilisers. I then added the mounting holes. 

@@ -1,0 +1,4 @@
+# config/build.yaml
+include:
+  - board: nice_nano_v2
+    shield: kai-board.conf

@@ -1,0 +1,6 @@
+if SHIELD_KAI_BOARD
+
+config ZMK_KEYBOARD_NAME
+    default "Kai Board Keeb"
+
+endif

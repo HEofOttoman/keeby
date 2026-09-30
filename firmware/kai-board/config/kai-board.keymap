@@ -1,0 +1,38 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        base_layer {
+            display-name = "Base";
+
+            bindings = <
+                &kp ESC       &kp GRAVE     &kp N1        &kp N2        &kp N3        &kp N4
+                &kp N5        &kp N6        &kp Q         &kp W         &kp E         &kp R
+                &kp T         &kp Y         &kp A         &kp S         &kp D         &kp F
+                &kp G         &kp H         &kp Z         &kp X         &kp C         &kp V
+                &kp B         &kp LCTRL     &mo 1         &kp LGUI      &kp LALT      &kp LC(Z)
+                &kp PRINTSCREEN &kp DEL     &kp LSHIFT    &kp TAB        &kp CAPSLOCK   &kp SPACE
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        fn_layer {
+            display-name = "Fn";
+
+            bindings = <
+                &trans       &trans       &kp F1       &kp F2       &kp F3       &kp F4
+                &kp F5       &kp F6       &trans      &trans      &trans      &trans
+                &trans       &trans       &trans      &trans      &trans      &trans
+                &trans       &trans       &trans      &trans      &trans      &trans
+                &trans       &trans       &trans      &trans      &trans      &trans
+                &trans       &trans       &trans      &trans      &trans      &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+    };
+};

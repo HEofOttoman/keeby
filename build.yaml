@@ -1,0 +1,11 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # ... (your checkout and setup steps)
+      - name: Build Firmware
+        uses: zmkfirmware/zmk-action-build@v3
+        with:
+          config_path: "firmware/kai-board/config"
+          board: "nice_nano_v2"
+          shield: "kai-board"

@@ -71,5 +71,12 @@ I could also resize the board, but I can't move onto cad from there.
 I could then work on the firmware instead, but I still don't know if I want to use ZMK as opposed to RMK because rust is coolio
 
 ---
+4 Hours
 
 I proceeded to spend time assigning 3d models to each of these switches and all the stabilisers. I then added the mounting holes. 
+
+Cue trying to start firmware on the side.
+
+I also decided to move the mcu from the side to the top.
+
+It is here that I then realise I somehow mislabeled the rows so that it's ROW0, ROW1, then straight to ROW3. I hope trying to fix this doesn't break anything...

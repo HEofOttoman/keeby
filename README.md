@@ -1,10 +1,10 @@
+<!-- # Kai-Board v1
+Custom 65% compact keyboard made by I, Henry Wauzivuff. -->
 <header align="center">
-# Kai-Board v1
-Custom 65% compact keyboard made by I, Henry Wauzivuff.
-<img src="Screenshot 2026-10-01 165726.png">
+<h1>Kai-Board v1</h1>
+<img src="assets/Screenshot 2026-10-01 165726.png">
+<h4>Custom wireless 65% compact keyboard made by Henry Wauzivuff.</h4>
 </header>
-
-Plans? What are those?
 
 ## Features
 - Wireless potential + Rechargable battery slot

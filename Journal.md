@@ -92,7 +92,9 @@ I then also added some art
 
 Now, to connect the IO expander. SDA & SCL are the two pins I need, but the pinouts for the nrf52840 supermini featuring SDA/SCL seems to be inconsistent..
 ![one pinout](https://cool-web.de/nrf/images/nrf52840-pinout.webp) ![and another i found](https://i.redd.it/ieuuneace28f1.png)
-Apparently the SDA/SCL pins for the nrf52840 is defined in the firmware, something something duplex matrix. I'm still unsure though, this is a massive risk
+Apparently the SDA/SCL pins for the nrf52840 is defined in the firmware, something something duplex matrix. I'm still unsure though, this is a massive risk if I wire it wrong so I should probably get the supermini devboards to test first before the pcb. Fingers crossed you're right gorkie
 
 ## 1 October 2026 - 4 hours
 I decided to switch & shift the positions of the joystick & EC11, so it feels more 'natural' in my own imagination, though it makes the EC11 much harder to wire. I am doing some messy routing, finally wiring the MCP23017 correctly. 
+
+

@@ -1,5 +1,6 @@
 # First Journal!
 |Name|Kai Board|
+|---|---|
 |Author|Henry W|
 |Total Hours|~15+|
 
@@ -86,3 +87,12 @@ I have decided on the board dimensions of 119.5 x 315 mm
 
 Now I rearrange pins on the board to simplify routing
 
+I then also added some art
+![keyboard art](<Screenshot 2026-09-30 220955.png>)
+
+Now, to connect the IO expander. SDA & SCL are the two pins I need, but the pinouts for the nrf52840 supermini featuring SDA/SCL seems to be inconsistent..
+![one pinout](https://cool-web.de/nrf/images/nrf52840-pinout.webp) ![and another i found](https://i.redd.it/ieuuneace28f1.png)
+Apparently the SDA/SCL pins for the nrf52840 is defined in the firmware, something something duplex matrix. I'm still unsure though, this is a massive risk
+
+## 1 October 2026 - 4 hours
+I decided to switch & shift the positions of the joystick & EC11, so it feels more 'natural' in my own imagination, though it makes the EC11 much harder to wire. I am doing some messy routing, finally wiring the MCP23017 correctly. 

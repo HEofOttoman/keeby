@@ -70,10 +70,10 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
+# Exported BOM files, I want them tho so bye
 *.xml
-*.csv
+# *.csv
 
 # custom
-production
+# production
 kbplacer.log

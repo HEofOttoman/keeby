@@ -1,5 +1,8 @@
+<header align="center">
 # Kai-Board v1
 Custom 65% compact keyboard made by I, Henry Wauzivuff.
+<img src="Screenshot 2026-10-01 165726.png">
+</header>
 
 Plans? What are those?
 
@@ -18,6 +21,7 @@ In a future design, I hope to include a usb hub, on/off switches, LEDs & whateve
 ### PCB
 
 ### CAD
+Onshape link that may or may not [work](https://cad.onshape.com/documents/7e4f9e7530ad3774807d336c/w/6a2b4c794cd4ebe03f2424c9/e/2e40ded4774df0623cc9d47f?renderMode=0&uiState=6abe04a7d032dd1321beeb5d)
 
 ## BOM
 |Qty|Item|Description|Cost (AUD/USD)|Link

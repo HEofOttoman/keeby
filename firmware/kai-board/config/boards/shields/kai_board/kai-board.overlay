@@ -53,3 +53,17 @@
             ;
     };
 };
+
+&i2c0 {
+    status = "okay";
+    compatible = "nordic,nrf-twim";
+    sda-pin = <17>; // Matches D2 (P0.17)
+    scl-pin = <20>; // Matches D3 (P0.20)
+
+    mcp23017: mcp23017@20 {
+        compatible = "microchip,mcp23017";
+        reg = <0x20>; // Assumes A0, A1, A2 are tied to GND
+        gpio-controller;
+        #gpio-cells = <2>;
+    };
+};

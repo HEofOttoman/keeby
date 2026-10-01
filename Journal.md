@@ -71,8 +71,8 @@ This, is where I come across a design dilemma. The Supermini has the exact amoun
 I could also resize the board, but I can't move onto cad from there. 
 I could then work on the firmware instead, but I still don't know if I want to use ZMK as opposed to RMK because rust is coolio
 
+30 September 2026 5Hrs
 ---
-30 September 2026 5 Hours
 *Keeb ends in less than a day... I must lock in.*
 
 I proceeded to spend time assigning 3d models to each of these switches and all the stabilisers. I then added the mounting holes. 
@@ -94,7 +94,10 @@ Now, to connect the IO expander. SDA & SCL are the two pins I need, but the pino
 ![one pinout](https://cool-web.de/nrf/images/nrf52840-pinout.webp) ![and another i found](https://i.redd.it/ieuuneace28f1.png)
 Apparently the SDA/SCL pins for the nrf52840 is defined in the firmware, something something duplex matrix. I'm still unsure though, this is a massive risk if I wire it wrong so I should probably get the supermini devboards to test first before the pcb. Fingers crossed you're right gorkie
 
-## 1 October 2026 - 4 hours
-I decided to switch & shift the positions of the joystick & EC11, so it feels more 'natural' in my own imagination, though it makes the EC11 much harder to wire. I am doing some messy routing, finally wiring the MCP23017 correctly. 
+## 1 October 2026 - 4.5 hours
+I decided to switch & shift the positions of the joystick & EC11, so it feels more 'natural' in my own imagination, though it makes the EC11 much harder to wire (being that it points to the other side). I am doing some messy routing, finally wiring the MCP23017 correctly to the ie. VSS/GND VDD/3.3v. 
 
+Anyway it's almost 30 September 11:59PM EST, I should REALLY get to finishing it up.
+I then exported a quick bom from KiCad, the PCB one. I speedran a case, still not my best work. The pcb still needs a bit of routing and shifting around to make it all efficient.
 
+![Case Render](<Screenshot 2026-10-01 165726.png>)

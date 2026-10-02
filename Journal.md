@@ -5,19 +5,19 @@
 |Total Hours|~15+|
 
 ## 21-22 July 26 - ~1-1.5hr
-![210726](210726.png)
+![210726](assets/210726.png)
 
 I have begun writing this journal. Installed marbastlib. Don't have a plan for my design yet, should probably think about that soon. Put down the basics of the schematic I think I'll use. Some labels here and there. Drawing schematics is just so satisfying, yk?
 
 The next day I worked on the columns more. Tried the first import to the pcb.
-![i should get a plan](planpls.png)
+![i should get a plan](assets/planpls.png)
 
 ## 1 September 26 ~2.5hrs
 Oh boy, it's been a while. Keeb's ending in a 30 days so I should really get cracking! I've been going back to the drawing board, since I probably really need to figure out a layout before going anywhere else at this stage. I opened a new document in Krita for hardware ideas, which is probably bad for efficiency and other methods exist, but idk. I like the compact design of [this keyboard by Tap](https://hackclub.slack.com/archives/C0ATP7MTNPJ/p1784718798722599) specifically because of the way the arrow keys are compacted with the rest of the layout. 
 
 From my design ideas, the calculations have yielded ***87(75%)-98(96%)*** keys layedout compactly! I think that's all I need to know to start working on my PCB!
 
-![planning 1](planning1.png)![planning 2](planning2.png)
+![planning 1](assets/planning1.png)![planning 2](assets/planning2.png)
 
 One of the things I also thought about (but didn't really need to at this stage come to think about it) was [keyboard mounting styles](https://www.monsgeek.com/blog/comprehensive-guide-to-keyboard-mounting-styles/).
 
@@ -26,7 +26,7 @@ One of the things I also thought about (but didn't really need to at this stage 
 - NRF52840
 
 ## 2 September 26 5hrs
-![1718020926](1718020926.png)
+![1718020926](assets/1718020926.png)
 
 Continued assigning rows/columns. Moved to reassigning things, my head hurts a LOT. The switches look nice and all layed out, but the key layout is different to what it should be. VERY MUCH SO.
 
@@ -36,11 +36,11 @@ I started using KBplacer somewhere this time here
 From last time I worked on this keyboard, I figured out I needed to delete an entire column, that being column 15.
 
 This is giving me a headache. I am close though. Only like 1 key away from this layout is correct.
-![almost there](<Schematic 2026-09-28 195109.png>)
+![almost there](<assets/Schematic 2026-09-28 195109.png>)
 I think I narrowed it down to SW56 in that image
-And now, this works!! Much less messy ![and now, this works!!](<Fixed Schematic 2026-09-28 203737.png>)
+And now, this works!! Much less messy ![and now, this works!!](<assets/Fixed Schematic 2026-09-28 203737.png>)
 
-![pcb](<pcbwork.png>)
+![pcb](<assets/pcbwork.png>)
 
 I proceeded to spend a long time rotating the diodes. Then rotating. Then routing.
 
@@ -52,7 +52,7 @@ I came across a weird issue where my keyboard edge cuts is completely busted.
 I then realised it was because of a miniscule edge.cuts object.
 
 From Kbplacer's placement that was mostly correct, there was a problem with the placement of the switches..
-![alt text](<columnproblems.png>)
+![alt text](<assets/columnproblems.png>)
 Now I start writing down parts for the BOM because why not. I have 67 keys and diodes. 
 
 It is about this time I probably decide against using an LED to reduce battery usage.
@@ -61,7 +61,7 @@ I am using 301230 (301230 means 3.0 x 12 x 30 mm) Li-Po batteries, because they 
 
 Annotate schematic being a lil silly and putting components out of wack. 
 
-![new parts?](<superminiandother.png>)
+![new parts?](<assets/superminiandother.png>)
 
 I started looking for a pinout to the Supermini to help me wire the nrf to the gpio 
 ![https://github.com/pdcook/nRFMicro-Arduino-Core](https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/supermini_nicenano.png) The locations of the Bat+ & Bat- pins are something I need to look out for
@@ -88,7 +88,7 @@ I have decided on the board dimensions of 119.5 x 315 mm
 Now I rearrange pins on the board to simplify routing
 
 I then also added some art
-![keyboard art](<Screenshot 2026-09-30 220955.png>)
+![keyboard art](<assets/kaiboardart.png>)
 
 Now, to connect the IO expander. SDA & SCL are the two pins I need, but the pinouts for the nrf52840 supermini featuring SDA/SCL seems to be inconsistent..
 ![one pinout](https://cool-web.de/nrf/images/nrf52840-pinout.webp) ![and another i found](https://i.redd.it/ieuuneace28f1.png)
@@ -100,4 +100,4 @@ I decided to switch & shift the positions of the joystick & EC11, so it feels mo
 Anyway it's almost 30 September 11:59PM EST, I should REALLY get to finishing it up.
 I then exported a quick bom from KiCad, the PCB one. I speedran a case, still not my best work. The pcb still needs a bit of routing and shifting around to make it all efficient.
 
-![Case Render](<Screenshot 2026-10-01 165726.png>)
+![Case Render](<assets/Screenshot 2026-10-01 165726.png>)
